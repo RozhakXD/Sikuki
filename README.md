@@ -18,11 +18,13 @@ Unduh file `.zip` dari [GitHub Releases](https://github.com/RozhakXD/Sikuki/rele
 Selanjutnya, klik **Load unpacked** dan pilih folder hasil ekstrak. Kini, SiKuki siap digunakan! 🎉
 
 ## 🚀 Cara Penggunaan
-Klik ikon SiKuki di toolbar Chrome, lalu gunakan tombol yang tersedia untuk mengelola cookies.  
+Klik ikon SiKuki di toolbar Chrome, lalu gunakan tombol berikut untuk mengelola cookies:  
 
-Gunakan **Get Cookies** untuk menampilkan cookies situs saat ini, **Clear Cookies** untuk menghapus semua cookies, dan **Update Cookies** untuk mengganti cookies dengan string baru.  
+- **Update Cookies** – Mengganti cookies dengan string baru.  
+- **Get Cookies** – Menampilkan cookies situs saat ini.  
+- **Clear Cookies** – Menghapus semua cookies di situs tersebut.  
 
-Nikmati kemudahan mengelola cookies tanpa ribet! 😃
+Kelola cookies dengan mudah dan cepat! 😃
 
 ## 📷 Tampilan
 ![Cuplikan layar 2025-02-16](https://github.com/user-attachments/assets/f9e8255e-bfc3-4f8b-b0cc-ded382fa76fb)
