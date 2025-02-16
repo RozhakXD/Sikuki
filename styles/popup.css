@@ -1,0 +1,130 @@
+:root {
+    --primary-color: #4a90e2;
+    --secondary-color: #50e3c2;
+    --danger-color: #ff5a5f;
+    --background-color: #f8f9fa;
+    --text-color: #2c3e50;
+    --border-radius: 10px;
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    background: #fff3e0;
+    color: white;
+    width: 700px;
+    padding: 1.5rem;
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+.cookie-textarea {
+    border-radius: var(--border-radius);
+    border: 2px solid #e0e0e0;
+    resize: vertical;
+    padding: 0.8rem;
+    width: 100%;
+    min-height: 100px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.cookie-textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: var(--box-shadow);
+}
+
+.button-group {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+    display: grid;
+}
+
+.button {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: var(--border-radius);
+    padding: 0.7rem;
+    align-items: center;
+    border: none;
+    display: flex;
+    gap: 0.4rem;
+    cursor: pointer;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.button:hover {
+    box-shadow: var(--box-shadow);
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(0);
+}
+
+.get-button {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.clear-button {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.update-button {
+    background-color: var(--secondary-color);
+    color: var(--text-color)
+}
+
+.copy-button {
+    background-color: #a569bd;
+    color: white;
+}
+
+.status-message {
+    border-radius: var(--border-radius);
+    transform: translateY(10px);
+    text-align: center;
+    padding: 0.8rem;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.status-message.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.success {
+    background-color: #e3fcef;
+    color: #007b55;
+}
+
+.error {
+    background-color: #ffebe6;
+    color: #d72c0d;
+}

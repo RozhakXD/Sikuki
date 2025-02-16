@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sikuki</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles/popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>🍪 Sikuki</h3>
+        </div>
+
+        <textarea id="cookieString" class="cookie-textarea" placeholder="Cookie data will appear here..."></textarea>
+
+        <div class="button-group">
+            <button id="getCookies" class="button get-button">
+                <span class="material-icons">download</span>
+                Getting
+            </button>
+
+            <button id="clearCookies" class="button clear-button">
+                <span class="material-icons">delete</span>
+                Clear
+            </button>
+
+            <button id="updateCookies" class="button update-button">
+                <span class="material-icons">upload</span>
+                Update
+            </button>
+
+            <button id="copyCookies" class="button copy-button">
+                <span class="material-icons">content_copy</span>
+                Copy
+            </button>
+        </div>
+
+        <div id="statusMessage" class="status-message"></div>
+    </div>
+
+    <script src="js/popup.js"></script>
+</body>
+</html>
